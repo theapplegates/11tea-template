@@ -4,6 +4,7 @@ category: Hobbies
 image: https://picsum.photos/1200/512?6
 date: 2021-12-10
 ---
+{% image "/assets/images/hamburger-yum.jpg", "A juicy hamburger" %} 
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nunc magna, sed fringilla arcu gravida vitae. Phasellus sed interdum sapien. Sed eu justo nibh. Sed sollicitudin efficitur quam, sed consequat nunc vestibulum ac. Duis laoreet nunc diam, id pulvinar dui rutrum eu. Aliquam ac dapibus ante, eu iaculis tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque et eros dapibus, congue libero eget, molestie magna.
 

@@ -17,7 +17,7 @@ module.exports.default = async (
     className,
     widths = [300, 640, 768, 1024, 1280],
     baseFormat = 'jpeg',
-    optimizedFormats = ['avif', 'webp'],
+    optimizedFormats = ['avif', 'webp', 'jpeg'],
     sizes = '100vw'
 ) => {
     let imageDir = '/assets/images/external'
