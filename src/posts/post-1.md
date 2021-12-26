@@ -5,7 +5,6 @@ image: https://picsum.photos/1200/512?1
 date: 2021-10-31
 ---
 
-<div class="md:mx-auto md:p-0 container flex-auto p-4 mt-12 prose-lg">{% image "/assets/images/hamburger-yum.jpg", "Airport candid" %}</div>
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere nunc magna, sed fringilla arcu gravida vitae. Phasellus sed interdum sapien. Sed eu justo nibh. Sed sollicitudin efficitur quam, sed consequat nunc vestibulum ac. Duis laoreet nunc diam, id pulvinar dui rutrum eu. Aliquam ac dapibus ante, eu iaculis tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque et eros dapibus, congue libero eget, molestie magna.
 
