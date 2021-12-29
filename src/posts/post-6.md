@@ -5,7 +5,7 @@ image: https://picsum.photos/1200/512?6
 date: 2021-12-10
 ---
 
-<div class="md:mx-auto md:p-0 container flex-auto p-4 mt-12 prose-lg">{% image "/assets/images/hamburger-yum.jpg", "Airport candid" %}</div>
+<div class="md:mx-auto md:p-0 container flex-auto p-4 mt-12 prose-lg"{% image "/assets/images/hamburger-yum.jpg", "Airport candid" %}</div>
 
 
 
