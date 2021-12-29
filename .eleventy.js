@@ -44,7 +44,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('src/assets/js')
 
     return {
-        htmlTemplateEngine: 'md',
+        htmlTemplateEngine: 'njk',
         dir: {
             input: 'src',
             output: 'dist',
