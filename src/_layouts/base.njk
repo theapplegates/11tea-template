@@ -9,18 +9,32 @@
     <script defer src="https://unpkg.com/@alpinejs/intersect@3.7.0/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/@alpinejs/collapse@3.7.0/dist/cdn.min.js"></script>
     <script src="//unpkg.com/alpinejs@3.7.0/dist/cdn.min.js" defer></script>
-    <script src="https://kit.fontawesome.com/1fca07cddd.js" crossorigin="anonymous"></script>
     <noscript><style>noscript { display: contents; } .lazy-img { display: none; }</style></noscript>
     <title>{{ title }}</title>
 </head>
 
 <body class="bg-slate-50 tet-gray-900 flex flex-col min-h-screen">
+    <a 
+        class="focus:translate-y-0 absolute z-50 p-4 m-1 text-red-500 transition-transform -translate-y-16 bg-black rounded-lg"
+        href="#main-content"
+        tabindex="0"
+    >
+        Skip Navigation
+    </a>
+
     {% include 'nav.njk' %}
     
-    {{ content | safe }}
+    <div id="main-content" class="flex-auto">
+        {{ content | safe }}
+    </div>
     
     {% include 'footer.njk' %}
     <script src="/assets/js/site.js"></script>
+
+    <!-- REMOVE BEFORE USE -->
+    <!-- Cloudflare Web Analytics -->
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ee3166442e7044109c9e856104e2a94b"}'></script>
+    <!-- End Cloudflare Web Analytics -->
 </body>
 
 </html>
